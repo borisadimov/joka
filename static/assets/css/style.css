@@ -1,0 +1,76 @@
+html{
+height:100%;
+}
+body{
+text-align:center;
+min-width:800px;
+height: 100%;
+margin:0;
+}
+#menu{
+margin-top:100px;
+
+}
+#main{
+min-height:100%;
+margin-top:-35px;
+
+}
+#help{
+max-width:960px;
+min-width:180px;
+min-height:180px;
+margin:0 auto;
+z-index: 850;
+margin-top:-200px;
+}
+#logo{
+margin-top:25px;
+width:180px;
+min-height:180px;
+margin-left:-23px;
+background: url('http://iamjoka.com/GOGA/qwerty/logo2.jpg') no-repeat center center;
+z-index: 999;
+
+
+
+}
+.photo{
+float: left;
+margin-right:25px;
+margin-bottom:25px;
+}
+.box-photoset{
+max-width:960px;
+margin: 0 auto;
+margin-top: 30px;
+overflow:hidden;
+/*min-height: 700px;*/
+}
+#contact{
+background: url('http://iamjoka.com/assets/images/sticker_2.jpg') no-repeat right 0 /*, url('http://iamjoka.com/GOGA/qwerty/logo2.jpg') no-repeat left 70% */;
+height: 185px;
+margin:0 auto;
+margin-top: -125px;
+max-width:960px;
+z-index:800;
+
+}
+#footer{
+/*margin-top:100px;*/
+font-size: 14px;
+text-align: center;
+height:75px;
+margin-top:-150px;
+clear: both;
+
+}
+#footer p{
+margin-top:5px;
+}
+#empty{
+height:200px;
+}
+.epta{
+margin-right:5px;
+}

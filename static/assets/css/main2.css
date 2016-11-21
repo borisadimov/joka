@@ -1,0 +1,94 @@
+body, html{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;	
+}
+  
+
+#left{
+  width: 180px;
+  height: 300px;
+}
+
+#right{
+  width: 180px;
+  height: 300px;
+  padding-top: 42px;
+}
+
+#sets{
+  height:  130px;
+  text-align: center;
+}
+
+#sets div{
+  padding: 5px;
+  width: auto;
+  background: #000;
+  color: #fff;
+  font-family: Tahoma;
+  font-size: 16px;
+  font-weight: bolder;
+} 
+
+#sets a{
+  color: #fff;
+  font-family: Tahoma;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+
+#box-photosets{
+  width: 445px;
+  height: 465px;
+  overflow: hidden;
+  position: relative;	
+  margin: 0px auto;
+}
+
+.box-photoset{
+  width: 452px;
+  height: 465px;
+  float: left;
+}
+
+.photo{
+  width: 74px;
+  height: 74px;
+  float: left;	
+}
+
+#_toleft, #_toright{
+  position: relative;
+  z-index: 10;
+}
+
+#_toleft img, #_toright img{
+  cursor: pointer;
+}
+
+#_toleft{
+  left: 251px;
+  top: 248px;	
+}
+
+#_toright{
+  left: -252px;
+  top: -272px;	
+}
+
+.page-wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+* html .page-wrapper {
+    height: 100%;
+}
+
+.page-buffer {
+    height: 50px;
+}
