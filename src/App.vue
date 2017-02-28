@@ -15,7 +15,7 @@ export default {
   },
   mounted: function() {
     var counter = 0;
-    function changeBgImage (id) {
+    window.changeBgImage = (id) => {
     var element = document.getElementById(id);
     switch (counter) {
     case 0:
@@ -53,7 +53,7 @@ export default {
     }
     if (counter<9) {counter++;} else {counter=0;}
     }
-    function takeItBack (id) { var element = document.getElementById(id); element.style.backgroundImage = "url(/assets/images/logo.jpg)";}
+    window.takeItBack = (id) => { var element = document.getElementById(id); element.style.backgroundImage = "url(/assets/images/logo.jpg)";}
 
   }
 

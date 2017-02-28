@@ -30,6 +30,7 @@ width:180px;
 min-height:180px;
 margin-left:-23px;
 background: url('http://iamjoka.com/GOGA/qwerty/logo2.jpg') no-repeat center center;
+background-image: url(/assets/images/logo.jpg);
 z-index: 999;
 
 
@@ -48,7 +49,7 @@ overflow:hidden;
 /*min-height: 700px;*/
 }
 #contact{
-background: url('http://iamjoka.com/assets/images/sticker_2.jpg') no-repeat right 0 /*, url('http://iamjoka.com/GOGA/qwerty/logo2.jpg') no-repeat left 70% */;
+background: url('/assets/images/sticker_2.jpg') no-repeat right 0 ;
 height: 185px;
 margin:0 auto;
 margin-top: -125px;

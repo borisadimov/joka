@@ -41,12 +41,12 @@ let webpackConfig = merge(baseWebpackConfig, {
     }),
 
 
-    new PrerenderSpaPlugin(
-     // (REQUIRED) Absolute path to static root
-     path.join(__dirname, '../dist'),
-     // (REQUIRED) List of routes to prerender
-     [ '/', '/personal' ]
-   ),
+  //   new PrerenderSpaPlugin(
+  //    // (REQUIRED) Absolute path to static root
+  //    path.join(__dirname, '../dist'),
+  //    // (REQUIRED) List of routes to prerender
+  //    [ '/', '/personal' ]
+  //  ),
     new webpack.optimize.UglifyJsPlugin({
       compress: {warnings: false}
     }),
